@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+*{
+ margin: 0%;
+ padding: 0%;
+}
+body{
+    font-family:'Roboto' sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(#e25914,#5b1f0a);
+    padding: 0%;
+}
+.navbar-brand{
+    height: 40px;
+    padding-left: 20px;
+    font-family:  serif;
+    color: #fff;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+    background-image: linear-gradient(#e25914,#5b1f0a);
+    color: #fff;
+    padding-top: 5%;
+}
+.A1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family:'Times New Roman';
+}
+.A2{
+ font-weight: 500;
+ font-size:40px ;
+ font-family: 'Times New Roman';
+ margin-top: 0%;
+}
+.A3{
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.A4{
+    font-weight: 250;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.li a{
+    text-decoration: none;
+    color: #fff;
+}
+.A5{
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+.img-fluid{
+    border-radius: 50%;
+}
+#cultures{
+    background-image:linear-gradient(#5b1f0a,#e25914);
+    padding-top: 5%;
+    color: #fff
+    
+}
+.chd{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.D1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.D2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.img-cultr{
+    align-items: center;
+    margin-left: 30%;
+    height: 80%;
+}
+.C1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.C2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.img-belbiha{
+    align-items: center;
+    margin-right: 30%;
+    height: 90%;
+}
+.E1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.E2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+.img-dress{
+    align-items: center;
+    margin-left: 10%;
+    height: 50%;
+    margin-bottom: 0%;
+}
+/*---------Festivals section---------*/
+#festivals{
+    padding: 80px 0;
+    background-image:linear-gradient(#e25914 ,#5b1f0a); 
+    color: #fff;
+}
+.festival-img{
+    margin-top: 20px;
+    width: 100px;
+}
+.indra-img{
+    margin-top: 20px;
+    width: 100px;
+}
+.gai-img{
+    margin-top: 20px;
+    width: 100px;
+}
+.fst{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+/*---------foods--------------*/
+#foods{
+    padding: 80px 0;
+    background-image:linear-gradient( #5b1f0a, #e25914); 
+    color: #fff;
+}
+.bara{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+.yomari{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+.choila{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+.fds{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+/*-----------contact-------------*/
+.input[type=text][type=email],textarea{
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #fff;
+ border-radius: 6px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+.button{
+    border-radius: 4px;
+    background-color: purple;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+.icons{
+    text-align: center;
+   height: 30%; 
+   color: red;  
+}
+
+.form-label{
+    color:red;
+}
+.footer{
+    position: fixed;
+    color: red;
+    align-items: center;
+}
+
+
+
+
+    
